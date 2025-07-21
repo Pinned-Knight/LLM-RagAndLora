@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAN-T5 Fine-tuning Playground</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 FLAN-T5 Fine-tuning Playground</h1>
+            <p>Upload PDF → Generate Dataset → Fine-tune → Chat</p>
+        </header>
+
+        <!-- PDF Upload Section -->
+        <section class="card">
+            <h2>📄 1. Upload PDF & Generate Dataset</h2>
+            <div class="upload-area">
+                <input type="file" id="pdfFile" accept=".pdf" style="display: none;">
+                <div id="dropZone" class="drop-zone">
+                    <div class="drop-content">
+                        <span class="upload-icon">📤</span>
+                        <p>Click to select PDF or drag and drop</p>
+                        <small>Only PDF files are supported</small>
+                    </div>
+                </div>
+                <div id="uploadStatus" class="status-message" style="display: none;"></div>
+                <button id="previewBtn" class="btn btn-secondary" style="display: none;">Preview Dataset</button>
+            </div>
+        </section>
+
+        <!-- Chat Section -->
+        <section class="card">
+            <h2>💬 2. Chat with Model</h2>
+            <div class="chat-container">
+                <div id="chatMessages" class="chat-messages">
+                    <div class="message bot">
+                        <div class="message-content">
+                            <strong>FLAN-T5:</strong> Hello! I'm ready to chat. Upload a dataset and train me for better responses!
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="chatInput" class="chat-input" placeholder="Type your message..." disabled>
+                    <button id="sendBtn" class="btn btn-primary" disabled>Send</button>
+                </div>
+                <div id="chatStatus" class="status-message"></div>
+            </div>
+        </section>
+
+        <!-- Training Section -->
+        <section class="card">
+            <h2>🎯 3. Fine-tune Model</h2>
+            <div class="training-config">
+                <div class="config-group">
+                    <label class="section-label">Training Method:</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="method" value="lora" checked>
+                            <span class="radio-custom"></span>
+                            LoRA (Recommended)
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="method" value="full">
+                            <span class="radio-custom"></span>
+                            Full Fine-tuning
+                        </label>
+                    </div>
+                </div>
+
+                <div class="config-group">
+                    <label for="epochs" class="section-label">Number of Epochs:</label>
+                    <input type="number" id="epochs" min="1" max="10" value="3" class="config-input">
+                </div>
+
+                <div id="loraRankGroup" class="config-group">
+                    <label for="loraRank" class="section-label">LoRA Rank:</label>
+                    <input type="number" id="loraRank" min="1" max="64" value="8" class="config-input">
+                </div>
+
+                <button id="trainBtn" class="btn btn-primary">
+                    <span id="trainBtnText">Start Training</span>
+                    <span id="trainSpinner" class="spinner" style="display: none;"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Training Logs Section -->
+        <section class="card" id="logsSection" style="display: none;">
+            <h2>📊 Training Logs</h2>
+            <div class="logs-container">
+                <pre id="trainingLogs" class="logs"></pre>
+            </div>
+        </section>
+
+        <!-- Dataset Preview Modal -->
+        <div id="datasetModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>📋 Dataset Preview (First 20 pairs)</h3>
+                    <button id="closeModal" class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="datasetPreview" class="dataset-preview"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
