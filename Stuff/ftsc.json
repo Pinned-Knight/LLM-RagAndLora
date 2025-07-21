@@ -1,0 +1,149 @@
+{
+    "0": {
+        "generated": [
+            {
+                "question": "What is the fundamental theorem of space curves about?",
+                "answer": "The fundamental theorem states that given differentiable functions \u03ba ( s ) >  vol.json"
+            }
+        ],
+        "context": "1. Fundamental theorem of space curves\nTHEOREM 1.1. Given differentiable functions \u03ba ( s ) > 0 and \u03c4 ( s ) , s \u2208 ( a, b ) \u2286 I R , there exists a regular parametrized curve \u03b3 : ( a, b ) \u2192 I R 3 such that s is the arc length, \u03ba ( s ) is the curvature and \u03c4 ( s ) is the torsion of \u03b3 .\nMoreover, if \u02dc \u03b3 is any other curve satisfying the same conditions, then there exists a rigid motion ( an isometry ) of I of I R 3 such that\n<!-- formula-not-decoded -->\ni.e., \u02dc \u03b3 ( s ) = \u03c1 \u25e6 \u03b3 ( s ) + a where \u03c1 is a rotation and a \u2208 I R 3 is some fixed vector.\nProof. Step 1: To construct a regular parametrized curve \u03b3 with curvature \u03ba and torsion \u03c4 : The Serret- Frenet equations for space curves parametrised by arc length are\n<!-- formula-not-decoded -->"
+    },
+    "1": {
+        "generated": [
+            {
+                "question": "What are the key components of space curves in this context?",
+                "answer": "The key components of space curves discussed here are unit tangent vector (t(s)), unit normal vector (n(s)), and unit binormal vector (b(s))."
+            },
+            {
+                "question": "How do the functions \u03ba and \u03c4 relate to the system of ordinary differential equations?",
+                "answer": "The functions \u03ba (curvature) and \u03c4 (torsion) define a system of ordinary differential equations that describe the evolution of space curves."
+            },
+            {
+                "question": "What is the desired solution for F in terms of tangent, normal, and binormal vectors?",
+                "answer": "The desired solution for F represents the curve's position at any point s as a tuple (T(s), N(s), B(s)), which are unit tangent, normal, and binormal vectors respectively."
+            },
+            {
+                "question": "What is the initial condition provided for function F?",
+                "answer": "The initial condition provided for function F is that at s = 0, F equals (e1, e2, e3), where e1=(1,0,0), e2=(0,1,0) and e3=(0,0,1)."
+            },
+            {
+                "question": "What does the matrix A(s) represent in this context?",
+                "answer": "Matrix A(s) represents a 9x9 matrix that arises from expressing the system of ordinary differential equations in terms of F."
+            },
+            {
+                "question": "How is the matrix B expressed using curvature and torsion?",
+                "answer": "The matrix B can be represented as (B(s) = 1 - (\u03ba\u00b2/2\u03c0\u00b3) * I + (\u03c4\u00b2/\u03c0\u2074) * I\u00b2, where I denotes the identity matrix."
+            }
+        ],
+        "context": "1. Fundamental theorem of space curves\nwhere - \u2192 t ( s ) is the unit tangent vector, - \u2192 n ( s ) is a unit normal vector and - \u2192 b ( s ) is unit binormal vector in I R 3 . Thus, for the given functions \u03ba and \u03c4 consider the system of ordinary differential equations\n<!-- formula-not-decoded -->\nand we look for solution F : ( a, b ) \u2192 I R 9 , F ( s ) = ( T ( s ) , N ( s ) , B ( s )) with the initial condition F (0) = ( e 1 , e 2 , e 3 )\nwhere e 1 = (1 , 0 , 0), e 2 = (0 , 1 , 0) and e 3 = (0 , 0 , 1) is the standard basis in I R 3 . In terms of F the system (1.1) can be written as\n<!-- formula-not-decoded -->\nwhere A ( s ) is a 9 \u00d7 9 matrix\n<!-- formula-not-decoded -->\nwhere\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->"
+    },
+    "2": {
+        "generated": [
+            {
+                "question": "What are the characteristics of the fundamental theorem related to space curves?",
+                "answer": "The fundamental theorem states that if X : (a,b) \u00d7 U \u2192 R^n is a 3x3 zero matrix and Y: (a, b) \u00d7 U \u2192 R^n is a 3x3 identity matrix."
+            },
+            {
+                "question": "What does the existence and uniqueness theorem of ODE state?",
+                "answer": "The theorem states that for a map X : (a,b) x U -> IR^n which is Lipschitz continuous on an open set U in R^n, given any point (s0, \u02c6x1,...,\u02c6xn) in (a, b) x U, there exists a unique solution to the initial value problem."
+            },
+            {
+                "question": "Under what conditions can we say that if X(s, . ) is linear, then the solution \u03b1(s) is defined for all s in (a,b)?",
+                "answer": "If map X : (s,.) -> R^n is linear and U = R^n, then the solution alpha(s) will be defined for all s in the interval (a, b)."
+            }
+        ],
+        "context": "1. Fundamental theorem of space curves\nis the 3 \u00d7 3 zero matrix and\n<!-- formula-not-decoded -->\nis the 3 \u00d7 3 identity matrix.\nThe existence and uniqueness theorem of ODE states: Given a map X : ( a, b ) \u00d7 U \u2192 I R n which is Lipschitz continuous on an open set U \u2282 I R n and a point ( s 0 , \u02c6 x 1 , . . . , \u02c6 x n ) \u2208 ( a, b ) \u00d7 U , there exists a unique solution \u03b1 : ( s 0 -\u03b4, s 0 + \u03b4 ) \u2192 U , \u03b4 > 0 to the initial value problem\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\nMoreover, if the map X ( s, . ) is linear (in this case U = I R n ) then the solution \u03b1 ( s ) is defined for all s \u2208 ( a, b ) ."
+    },
+    "3": {
+        "generated": [
+            {
+                "question": "What is stated about the map X(s,v) in relation to linearity and initial value problems?",
+                "answer": "The map X(s, v), for (s, v) belonging to the interval (a, b) x R^9, is described as linear. It guarantees a unique solution F: (a, b) -> R^9 for the initial value problem (1.2)."
+            },
+            {
+                "question": "Which functions' orthonormality can be shown using equations (1.1), and how is this demonstrated?",
+                "answer": "The functions T(s), N(s), and B(s) for each s in the interval (a, b) are claimed to be orthonormal. This claim is supported by defining certain functions and solving differential equations using equation (1 volleyball = space curves)"
+            },
+            {
+                "question": "What role do T(s), N(s), and B(s) play in the context of this data?",
+                "answer": "T(s), N(s), and B(s) are functions related to space curves, whose orthonormality is proven using equations (1.1)."
+            },
+            {
+                "question": "How can we verify that the vectors T(s), N(s), and B(s) form an orthonormal basis?",
+                "answer": "By defining appropriate functions, solving differential equations using equation (1.2), and applying similar computations for other functions."
+            },
+            {
+                "question": "What is the mathematical context surrounding T(s), N(s), B(s) in relation to space curves?",
+                "answer": "The context revolves around demonstrating that these vectors form an orthonormal basis for analyzing properties of space curves, using equations (1.1) and (1.2)."
+            }
+        ],
+        "context": "1. Fundamental theorem of space curves\nSince in (1.2) the map X ( s, v ) = A ( s ) v for ( s, v ) \u2208 ( a, b ) \u00d7 I R 9 is linear, there exists a unique solution F : ( a, b ) \u2192 I R 9 to the initial value problem (1.2).\nWe claim that the vectors { T ( s ) , N ( s ) , B ( s ) } are orthonormal, for each s \u2208 ( a, b ). To see this we define the functions\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\nand write the differential equations satisfied by them using (1.1). Observe that\n<!-- formula-not-decoded -->\nusing the equation (1.2). Similar computations can be done for remaining functions using (1.2) to get\n<!-- formula-not-decoded -->"
+    },
+    "4": {
+        "generated": [
+            {
+                "question": "What does G(s) represent in the context of space curves?",
+                "answer": "G(s) represents a solution to the system involving a 6x6 matrix and six variables, given by (\u03c31(s), \u03c32(s), \u03c33(s), \u03b71(s), \u03b72(s), \u03b73(s))."
+            },
+            {
+                "question": "Why is uniqueness of solution important in this context?",
+                "answer": "Uniqueness of the solution implies that for a given constant curve \u03b1(s) = (1, 1, 1, 0, 0, 0), G(s) equals to \u03b1(s) for all s."
+            },
+            {
+                "question": "How can we verify if a function is the required space curve?",
+                "answer": "We can verify by checking whether the given function \u03b3: (a, b) \u2192 R^3 satisfies the properties of the space curve in question."
+            }
+        ],
+        "context": "1. Fundamental theorem of space curves\nThus G ( s ) = ( \u03c3 1 ( s ) , \u03c3 2 ( s ) , \u03c3 3 ( s ) , \u03b7 1 ( s ) , \u03b7 2 ( s ) , \u03b7 3 ( s )) \u2208 I R 6 is a solution for the system\n<!-- formula-not-decoded -->\nwhere B ( s ) is a 6 \u00d7 6 matrix\n<!-- formula-not-decoded -->\nSince the system is linear and the constant curve \u03b1 ( s ) = (1 , 1 , 1 , 0 , 0 , 0) is a solution of the system (1.4), uniqueness of solution implies that G ( s ) = \u03b1 ( s ) for all s and hence the claim is true.\n<!-- formula-not-decoded -->\nExercise: Verify that \u03b3 : ( a, b ) \u2192 I R 3 is the required curve."
+    },
+    "5": {
+        "generated": [
+            {
+                "question": "What does the fundamental theorem of space curves describe?",
+                "answer": "The fundamental theorem describes properties of regular parametrized curves in three-dimensional space, particularly their curvature and torsion."
+            },
+            {
+                "question": "Can you explain what a 'regular' parametrized curve is according to the Fundamental Theorem of Space Curves?",
+                "answer": "A 'regular' parametrized curve, as per the theorem, refers to a smooth curve in three-dimensional space with nonzero curvature and torsion."
+            },
+            {
+                "question": "In the context of the fundamental theorem, what role does rotation play when mapping one orthonormal basis onto another?",
+                "answer": "A rotation is used to map one orthonormal basis onto another while maintaining their orthogonality properties. This is relevant in relating points on different parametrized curves."
+            },
+            {
+                "question": "What are the primary characteristics of a point 'p' that lies on a regular parametrized curve?",
+                "answer": "A point 'p' on such a curve has associated parameters, and it can be represented by its position vector \u03b3(s1) along with tangential (t), normal (n), and binormal vectors at that specific parameter value."
+            },
+            {
+                "question": "Why is the choice of vector 'a' significant in the context of the fundamental theorem of space curves?",
+                "answer": "The choice of vector 'a' determines the direction for calculating the tangent vector T(\u03b3), which is essential when discussing curvature and torsion at a specific curve point."
+            }
+        ],
+        "context": "1. Fundamental theorem of space curves\nStep II: Let \u02dc \u03b3 : ( a, b ) \u2192 I R 3 be a regular parametrized curve with curvature \u03ba ( s ) and torsion \u03c4 ( s ). For s 1 \u2208 ( a, b ), let p = \u03b3 ( s 1 ) be a point on the curve represented by \u03b3 and \u02dc p = \u02dc \u03b3 ( s 1 ) be the point on \u02dc \u03b3 . The vectors { - \u2192 t ( s 1 ) , - \u2192 n ( s 1 ) , - \u2192 b ( s 1 ) } and { - \u2192 \u02dc t ( s 1 ) , - \u2192 \u02dc n ( s 1 ) , - \u2192 \u02dc b ( s 1 ) } are both orthonormal bases of I R 3 (similar to the standard basis in I R 3 ). Hence there exists a rotation \u03c1 of I R 3 which maps the orthonormal basis { - \u2192 t ( s 1 ) , - \u2192 n ( s 1 ) , - \u2192 b ( s 1 ) } onto { - \u2192 \u02dc t ( s 1 ) , - \u2192 \u02dc n ( s 1 ) , - \u2192 \u02dc b ( s 1 ) } . Choose a vector a \u2208 I R 3 such that T a ( \u03b3"
+    },
+    "6": {
+        "generated": [
+            {
+                "question": "What does the equation 'Fundamental Theorem of Space Curves' signify in terms of translation and rotation?",
+                "answer": "The Fundamental Theorem of Space Curves, denoted as sigma 1 (s) = gamma (s) + a, indicates that point p is translated to its equivalent position represented by theta_gamma (s)."
+            },
+            {
+                "question": "What does 'I' represent in this context and how is it defined?",
+                "answer": "'I' represents an isometry of R3. It is defined as I = Ta \u25e6 rho, where Ta is the translation vector a and rho is a curve."
+            },
+            {
+                "question": "What are the properties of 'gamma 1' with respect to curvature and torsion?",
+                "answer": "Gamma 1 has both its curvature (kappa) and torsion preserved from the original curve gamma. This is shown by proving that curvature kappa(s) = sigma_kappa (s) and torsion tau(s) = sigma_tau (s)."
+            },
+            {
+                "question": "How are both 'gamma' and 'gamma 1' solutions to the initial value problem?",
+                "answer": "'Gamma' and 'gamma 1' satisfy the same initial value problem with A(s) as in equation (1.3)."
+            },
+            {
+                "question": "What does the existence and uniqueness theorem imply for all s values within a given interval?",
+                "answer": "The theorem implies that there exists a unique solution to the initial value problem on the interval from 'a' to 'b'."
+            }
+        ],
+        "context": "1. Fundamental theorem of space curves\n( s 1 )) = \u03b3 ( s 1 ) + a = \u02dc \u03b3 ( s 1 ), i.e., T a translates the point p to \u02dc p .\nDefine I = T a \u25e6 \u03c1 and let \u03b3 1 ( s ) := I ( \u03b3 ( s ). Note that I is an isometry of I R 3 . Ex: Show that curvature of \u03b3 1 is \u03ba ( s ) and the torsion is \u03c4 ( s ).\nClearly, both \u03b3 1 and \u03b3 are solutions of the initial value problem\n<!-- formula-not-decoded -->\nwith A ( s ) as in (1.3).Thus existence and uniqueness theorem implies that\n<!-- formula-not-decoded -->\nfor all s \u2208 ( a, b ).\nglyph[square]"
+    }
+}

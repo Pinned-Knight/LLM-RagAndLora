@@ -1,0 +1,746 @@
+[
+  {
+    "question": "What kind of assertions are most paradoxical in mathematics?",
+    "answer": "infinite concepts"
+  },
+  {
+    "question": "Why focus on mathematical paradoxes of infinity?",
+    "answer": "important decisions depend on resolution"
+  },
+  {
+    "question": "How do we identify a 'mere appearance' of contradiction?",
+    "answer": "clarify infinite concept"
+  },
+  {
+    "question": "Does 'infinite' derive from 'finite'?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Infinity arises from finiteness through what component?",
+    "answer": "Negation"
+  },
+  {
+    "question": "Are both concepts applied to pluralities and quantities?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Can infinite apply to finite objects as well?",
+    "answer": "Yes"
+  },
+  {
+    "question": "What arises when considering infinitely small quantities?",
+    "answer": "Objects of calculation"
+  },
+  {
+    "question": "What is the topic of data?",
+    "answer": "General subject"
+  },
+  {
+    "question": "Does the data pertain to a specific industry?",
+    "answer": "Not specified"
+  },
+  {
+    "question": "Is there any numerical information in the dataset?",
+    "answer": "Unknown"
+  },
+  {
+    "question": "Are there multiple entries in this dataset?",
+    "answer": "Yes (5 entries)"
+  },
+  {
+    "question": "Does the data require fine-tuning for language models?",
+    "answer": "Yes"
+  },
+  {
+    "question": "What concept underlies the conjunction 'and'?",
+    "answer": "conjunction concept"
+  },
+  {
+    "question": "Which section discusses Menge and Vielheit translations?",
+    "answer": "\u00a74 Note translation"
+  },
+  {
+    "question": "For which subjects is clarity in use of 'and' required?",
+    "answer": "mathematics philosophy"
+  },
+  {
+    "question": "Where can one find the discussion on translations?",
+    "answer": "\u00a74 Note translation"
+  },
+  {
+    "question": "What does the data focus on for language modeling?",
+    "answer": "brief responses"
+  },
+  {
+    "question": "What does 'a collection' refer to in certain propositions?",
+    "answer": "Collection of parts"
+  },
+  {
+    "question": "Which objects form a whole with mutual effect according to the example given?",
+    "answer": "Sun, earth, moon"
+  },
+  {
+    "question": "How is the term 'whole' described when referring to items like rose and concept of a rose?",
+    "answer": "Collection forming different things"
+  },
+  {
+    "question": "What does the phrase 'a mutual effect on one another' imply in this context?",
+    "answer": "Interacting parts"
+  },
+  {
+    "question": "Are 'rose' and 'concept of a rose' considered as one or separate entities in the second example?",
+    "answer": "Separate"
+  },
+  {
+    "question": "Can object A combine with other objects?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Is A itself a collection?",
+    "answer": "Not directly"
+  },
+  {
+    "question": "True statements about collection exist?",
+    "answer": "Several"
+  },
+  {
+    "question": "A same as B implies multiple items in collection?",
+    "answer": "No"
+  },
+  {
+    "question": "Truths valid if A equals any object?",
+    "answer": "Only"
+  },
+  {
+    "question": "What does 'essentially different' signify in collections?",
+    "answer": "distinct perspectives"
+  },
+  {
+    "question": "What term describes collections where part arrangement doesn't matter?",
+    "answer": "multitude"
+  },
+  {
+    "question": "How are units of a kind A referred to in multitudes?",
+    "answer": "plurality"
+  },
+  {
+    "question": "What are compound collections?",
+    "answer": "Multi-layered sets"
+  },
+  {
+    "question": "Do sums preserve original structure when adding parts?",
+    "answer": "Yes, they do"
+  },
+  {
+    "question": "From which perspective does nothing essential change in compound collections?",
+    "answer": "Viewpoint of sum"
+  },
+  {
+    "question": "What term do mathematicians use for these types of collections?",
+    "answer": "Sums"
+  },
+  {
+    "question": "What defines an object's kind (Gattung)?",
+    "answer": "Equality relationship"
+  },
+  {
+    "question": "When are two objects considered equal?",
+    "answer": "M = N"
+  },
+  {
+    "question": "How can one object include a part of another?",
+    "answer": "M = M + \u03bd"
+  },
+  {
+    "question": "What term describes an object's size (Gr\u00f6\u00dfe)?",
+    "answer": "Quantity"
+  },
+  {
+    "question": "What do we call a collection where each part has one unique counterpart?",
+    "answer": "series"
+  },
+  {
+    "question": "What's the name for the relationship between terms in a series?",
+    "answer": "rule of formation"
+  },
+  {
+    "question": "Which term is considered the starting point in a sequence?",
+    "answer": "previous term"
+  },
+  {
+    "question": "How are successive terms defined within a series?",
+    "answer": "following term"
+  },
+  {
+    "question": "What defines an individual term's relationship to others in a series?",
+    "answer": "rule of formation"
+  },
+  {
+    "question": "What defines the interior term in a series?",
+    "answer": "Self-evident reference"
+  },
+  {
+    "question": "How is an exterior term identified within a series?",
+    "answer": "Existence comparison"
+  },
+  {
+    "question": "First term unit kind A?",
+    "answer": "Unit"
+  },
+  {
+    "question": "Terms derived from predecessor?",
+    "answer": "Derived"
+  },
+  {
+    "question": "Pluralities of kind A?",
+    "answer": "Countable pluralities"
+  },
+  {
+    "question": "Where more discussions found?",
+    "answer": "Wissenschaftslehre"
+  },
+  {
+    "question": "Term explanations provided where?",
+    "answer": "WL \u00a7\u00a7 82-86"
+  },
+  {
+    "question": "What determines the quantity of objects in concept A?",
+    "answer": "Variable quantity"
+  },
+  {
+    "question": "Can there be no last term in some series?",
+    "answer": "Possibly yes"
+  },
+  {
+    "question": "How is an infinite plurality defined?",
+    "answer": "More than finite ones"
+  },
+  {
+    "question": "What does 'exhausting all units' imply for a series?",
+    "answer": "Complete coverage"
+  },
+  {
+    "question": "Does the discussion involve proving something in detail?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Is finite plurality defined differently than infinite?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Are definitions without circularity assumed here?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Can definition determine general nature of infinity?",
+    "answer": "Possibly"
+  },
+  {
+    "question": "Does mathematics only use 'infinite' for quantities?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Is one quantity considered the unit in mathematical terms?",
+    "answer": "One"
+  },
+  {
+    "question": "What does 10 denote regarding infinite values?",
+    "answer": "Infinitely large"
+  },
+  {
+    "question": "How small must a number be to call it infinitely small?",
+    "answer": "Smaller multiples"
+  },
+  {
+    "question": "Does the concept include infinities of higher order?",
+    "answer": "No other infinity"
+  },
+  {
+    "question": "What are derived from the same concepts as infinite quantities?",
+    "answer": "Higher-order infinities"
+  },
+  {
+    "question": "Is there any additional type of infinity mentioned?",
+    "answer": "None"
+  },
+  {
+    "question": "Who calls 'the bad infinity'?",
+    "answer": "Hegel and his followers"
+  },
+  {
+    "question": "What do philosophers find in God?",
+    "answer": "Qualitative infinity"
+  },
+  {
+    "question": "Which mathematicians discuss variable growth of infinity?",
+    "answer": "Hegel, Erdmann"
+  },
+  {
+    "question": "What is 'the bad infinity' considered as?",
+    "answer": "A quantity with limit to its growth"
+  },
+  {
+    "question": "Which type of infinity do philosophers prefer?",
+    "answer": "Qualitative infinity"
+  },
+  {
+    "question": "Does a truly infinite quantity need to be variable?",
+    "answer": "No"
+  },
+  {
+    "question": "Can an infinite magnitude exist within finite quantities?",
+    "answer": "No"
+  },
+  {
+    "question": "Is it permissible for philosophers to call something 'infinite' without identifying infinite properties?",
+    "answer": "Not conceded"
+  },
+  {
+    "question": "From where can viewpoints that attribute infinity to an entity originate?",
+    "answer": "multiple"
+  },
+  {
+    "question": "What is God considered infinite due to in this context?",
+    "answer": "powers"
+  },
+  {
+    "question": "What power attributed to God implies true omniscience?",
+    "answer": "knowledge"
+  },
+  {
+    "question": "Which concept replaces the notion of true infinity here?",
+    "answer": "universe"
+  },
+  {
+    "question": "Does this universe include non-reality elements according to the statement?",
+    "answer": "yes"
+  },
+  {
+    "question": "Adopt what alternative?",
+    "answer": "Other one"
+  },
+  {
+    "question": "What is being adapted indefinitely?",
+    "answer": "That"
+  },
+  {
+    "question": "Is infinity rejected by some mathematicians?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Did Cauchy define infinity in his writings?",
+    "answer": "Defined"
+  },
+  {
+    "question": "What defines an infinitely large quantity?",
+    "answer": "Unbounded increase"
+  },
+  {
+    "question": "Is the tangent of a right angle considered unlimited?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Can infinity be proven to exceed any quantity?",
+    "answer": "Yes"
+  },
+  {
+    "question": "What do mathematicians call a variable quantity?",
+    "answer": "Concept, idea"
+  },
+  {
+    "question": "Is the infinite multitude of values a single value or multiple?",
+    "answer": "Multiple quantities"
+  },
+  {
+    "question": "Which expression represents different values for \u03c6?",
+    "answer": "tang. \u03c6"
+  },
+  {
+    "question": "What is wrongly imagined as the infinitely large in this context?",
+    "answer": "\u03c0^2 value"
+  },
+  {
+    "question": "Is zero considered by Cauchy and Grunert correct definition of infinitely small?",
+    "answer": "No"
+  },
+  {
+    "question": "Does Spinoza consider infinity as capable of further increase?",
+    "answer": "No"
+  },
+  {
+    "question": "Can mathematicians add to infinitely large numbers?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Is a line with one bounded end considered infinite by some?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Does 'no end in time' refer only to finite entities?",
+    "answer": "No"
+  },
+  {
+    "question": "Are lines or quantities outside of time also considered for infinity?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Is time or space considered finite?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Does a point in time count as infinite?",
+    "answer": "No"
+  },
+  {
+    "question": "Do mathematicians view circular circumferences as limits?",
+    "answer": "No"
+  },
+  {
+    "question": "Are bounded lines viewed as infinite by mathematicians?",
+    "answer": "In some contexts, yes."
+  },
+  {
+    "question": "Can bounded objects be considered finite quantities?",
+    "answer": "Yes"
+  },
+  {
+    "question": "What is infinite in rational psychology?",
+    "answer": "intellect large"
+  },
+  {
+    "question": "Does the straight line extend into infinity on both sides?",
+    "answer": "no both sides"
+  },
+  {
+    "question": "Do infinite parallel lines enclose a surface area?",
+    "answer": "yes encloses area"
+  },
+  {
+    "question": "Is an infinitely large intellect omniscient by definition?",
+    "answer": "not necessarily"
+  },
+  {
+    "question": "Does 'could be given' imply real existence in the context provided?",
+    "answer": "unclear"
+  },
+  {
+    "question": "What term describes real existence with both finite and infinite aspects?",
+    "answer": "finite and infinite"
+  },
+  {
+    "question": "Does Fries consider pure propositions to have existence?",
+    "answer": "yes, no, or infinite"
+  },
+  {
+    "question": "Can an 'infinity' exceed itself without contradiction in this context?",
+    "answer": "no"
+  },
+  {
+    "question": "What does 'could be given' imply about objects of experience?",
+    "answer": "can become object"
+  },
+  {
+    "question": "Is 'finite' and 'infinite' internal property?",
+    "answer": "internal property"
+  },
+  {
+    "question": "Does it depend on perception ability?",
+    "answer": "no dependency"
+  },
+  {
+    "question": "Can quantity perception determine finiteness?",
+    "answer": "not necessarily"
+  },
+  {
+    "question": "What does agreement imply regarding 'infinite' concept?",
+    "answer": "Concept clarity"
+  },
+  {
+    "question": "Is objectivity present in discussing infinite concepts?",
+    "answer": "Yes, objectivity"
+  },
+  {
+    "question": "Does the infinite concept apply to multitudes?",
+    "answer": "Multitudes application"
+  },
+  {
+    "question": "Which part follows a footnote on p.596?",
+    "answer": "Footnote reference"
+  },
+  {
+    "question": "What is the main focus of the agreement discussed?",
+    "answer": "'Infinite' components"
+  },
+  {
+    "question": "Is the concept of infinity applicable to possible truths?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Are there infinite propositions in reality?",
+    "answer": "Infinite"
+  },
+  {
+    "question": "Can a proposition make claims beyond possibility?",
+    "answer": "No"
+  },
+  {
+    "question": "Do all successive propositions relate to each other?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Does every finite multitude contain infinite parts?",
+    "answer": "No"
+  },
+  {
+    "question": "Can infinity be derived from a proposition?",
+    "answer": "Infinite"
+  },
+  {
+    "question": "Series similarity noted?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Relation between numbers and propositions?",
+    "answer": "Corresponding terms"
+  },
+  {
+    "question": "Propositions formed per number?",
+    "answer": "Equal"
+  },
+  {
+    "question": "Form new propositions possible?",
+    "answer": "Always"
+  },
+  {
+    "question": "Collection infinite or finite?",
+    "answer": "Infinite"
+  },
+  {
+    "question": "What do some scholits deny about infinity?",
+    "answer": "Infinity existence"
+  },
+  {
+    "question": "Scholars argue against finite multitudes of parts?",
+    "answer": "No infinite part"
+  },
+  {
+    "question": "Do arguments challenge real-world infinity?",
+    "answer": "Realm examined"
+  },
+  {
+    "question": "Examine scholars' non-real things argument?",
+    "answer": "Non-real infinity"
+  },
+  {
+    "question": "Are there proofs against paradoxical propositions?",
+    "answer": "Proposition false"
+  },
+  {
+    "question": "What does 'There can never be an infinite multitude' imply?",
+    "answer": "infinite impossibility"
+  },
+  {
+    "question": "Who states the mentioned assertion on infinity?",
+    "answer": "They say"
+  },
+  {
+    "question": "Why is it said that infinite multitude cannot form a whole?",
+    "answer": "unity issue"
+  },
+  {
+    "question": "What must be formed to think of a whole with multiple objects?",
+    "answer": "ideas for each object"
+  },
+  {
+    "question": "Is the view on thinking a whole from multiple objects accurate?",
+    "answer": "false view"
+  },
+  {
+    "question": "What is the range of population in Prague?",
+    "answer": "100000-120000"
+  },
+  {
+    "question": "Can you imagine all inhabitants individually?",
+    "answer": "No individual imagination"
+  },
+  {
+    "question": "Does a multitude require additional concepts beyond collection?",
+    "answer": "No extra concept needed"
+  },
+  {
+    "question": "What does the term 'collection' denote in context?",
+    "answer": "Collection of A"
+  },
+  {
+    "question": "Is difficulty associated with the concept of a multitude present when infinitely many parts are involved?",
+    "answer": "Difficulty removed"
+  },
+  {
+    "question": "Does part 14 mention multiple propositions?",
+    "answer": "No"
+  },
+  {
+    "question": "What does part 14 refer to as 'The multitude of all propositions or truths in themselves'?",
+    "answer": "'Proposition or truth'"
+  },
+  {
+    "question": "Is the concept mentioned unique in part 14?",
+    "answer": "Yes"
+  },
+  {
+    "question": "What category does 'a proposition or truth in itself' fall under according to part 14?",
+    "answer": "'Category'"
+  },
+  {
+    "question": "Does part 14 criticize a second error?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Who states that a multitude exists due to an initial thinker?",
+    "answer": "14"
+  },
+  {
+    "question": "Does the author believe in objective truths and propositions?",
+    "answer": "Yes"
+  },
+  {
+    "question": "What example is given for natural laws?",
+    "answer": "Impact speeds, masses relation"
+  },
+  {
+    "question": "Is existence without observation denied by 14?",
+    "answer": "No assumption"
+  },
+  {
+    "question": "Does truth exist independently?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Are wholes and multitudes naturally present?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Can judgements be true without observers?",
+    "answer": "No"
+  },
+  {
+    "question": "What arises from simple entities in thought?",
+    "answer": "Combinations"
+  },
+  {
+    "question": "Does a cliff form as a whole?",
+    "answer": "Yes"
+  },
+  {
+    "question": "What does 'Werk' refer to in context?",
+    "answer": "human act"
+  },
+  {
+    "question": "Are central particles related by default?",
+    "answer": "no connection"
+  },
+  {
+    "question": "Do relationships between particles arise independently of thoughts?",
+    "answer": "not necessarily"
+  },
+  {
+    "question": "Can the positioning effect on particles be without thought influence?",
+    "answer": "potentially yes"
+  },
+  {
+    "question": "Is a higher particle always determined by human judgment?",
+    "answer": "no"
+  },
+  {
+    "question": "Can a collection exist without prior thought?",
+    "answer": "No necessity."
+  },
+  {
+    "question": "Is it required for collections to have been thought by someone?",
+    "answer": "Not necessary."
+  },
+  {
+    "question": "Do infinite multitudes of things need individual imagining?",
+    "answer": "Individual imaging impossible."
+  },
+  {
+    "question": "Can an infinitely large collection exist independently?",
+    "answer": "No possibility."
+  },
+  {
+    "question": "What does rejecting collection assumption imply?",
+    "answer": "Not dependent on thinking a collection"
+  },
+  {
+    "question": "Is omniscience necessary for infinite multitude conceptions?",
+    "answer": "No necessity mentioned"
+  },
+  {
+    "question": "Can 'thinking of a thing' include its possibility basis?",
+    "answer": "Basis not included"
+  },
+  {
+    "question": "What is the first basis for something being thought by a rational being?",
+    "answer": "Possibility as basis"
+  },
+  {
+    "question": "Is the widespread view about possibility untenable?",
+    "answer": "Yes, completely"
+  },
+  {
+    "question": "What does possibility involve according to this concept?",
+    "answer": "'can'"
+  },
+  {
+    "question": "Can impossible things be thought of in true representation?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Is it correct that everything possible can be asserted as true?",
+    "answer": "No"
+  },
+  {
+    "question": "Does the impossibility sometimes get held mistakenly as true?",
+    "answer": "Sometimes"
+  },
+  {
+    "question": "What is required for a judgement about possibility to be considered appropriately expressed?",
+    "answer": "Truthful judgment"
+  },
+  {
+    "question": "What defines 'possible' according to this text?",
+    "answer": "contradiction avoidance"
+  },
+  {
+    "question": "Is every non-existent object considered impossible?",
+    "answer": "no"
+  },
+  {
+    "question": "Does limiting impossibility contradict truths?",
+    "answer": "yes"
+  },
+  {
+    "question": "What is necessary but not the same as possible or actual?",
+    "answer": "necessary only"
+  },
+  {
+    "question": "Which class are pure conceptual truths?",
+    "answer": "conceptual truths"
+  },
+  {
+    "question": "What is called the impossible?",
+    "answer": "contradiction"
+  },
+  {
+    "question": "What stands in contradiction with no truth?",
+    "answer": "possible"
+  },
+  {
+    "question": "Is a proposition valid if judged by an erring being?",
+    "answer": "irrelevant"
+  },
+  {
+    "question": "Does thinking preclude existence of infinite multitudes?",
+    "answer": "no reason"
+  }
+]
