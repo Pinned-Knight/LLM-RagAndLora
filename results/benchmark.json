@@ -1,0 +1,100 @@
+{
+  "config": {
+    "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+    "generator": "google/flan-t5-small",
+    "k": 3,
+    "chunk_words": 90,
+    "chunk_overlap_words": 20,
+    "split_seed": 42
+  },
+  "domains": [
+    {
+      "name": "Philosophy of math (Bolzano)",
+      "n_pairs": 186,
+      "n_test": 56,
+      "n_chunks": 152,
+      "retrieval": {
+        "answer_in_context@1": 0.2321,
+        "answer_in_context@3": 0.3393,
+        "answer_in_context@5": 0.3393
+      },
+      "lora": {
+        "epochs": 8,
+        "rank": 8,
+        "alpha": 32,
+        "lr": 0.001,
+        "batch_size": 8,
+        "train_pairs": 130,
+        "trainable_params": 344064,
+        "total_params": 77305216,
+        "trainable_pct": 0.45,
+        "train_seconds": 65.5,
+        "first_logged_loss": 4.853,
+        "last_logged_loss": 3.179
+      },
+      "systems": [
+        {
+          "system": "Base FLAN-T5-small, no context",
+          "n": 56,
+          "exact_match": 0.0893,
+          "f1": 0.1242,
+          "rouge_l": 0.1242,
+          "latency_ms": 199.8
+        },
+        {
+          "system": "RAG (top-3) + base FLAN-T5-small",
+          "n": 56,
+          "exact_match": 0.0714,
+          "f1": 0.1687,
+          "rouge_l": 0.1687,
+          "latency_ms": 308.0
+        },
+        {
+          "system": "LoRA fine-tuned, no context",
+          "n": 56,
+          "exact_match": 0.1071,
+          "f1": 0.128,
+          "rouge_l": 0.128,
+          "latency_ms": 92.5
+        },
+        {
+          "system": "RAG (top-3) + LoRA model",
+          "n": 56,
+          "exact_match": 0.1429,
+          "f1": 0.2073,
+          "rouge_l": 0.2073,
+          "latency_ms": 239.8
+        }
+      ]
+    },
+    {
+      "name": "Sports (Federer)",
+      "n_pairs": 16,
+      "n_test": 16,
+      "n_chunks": 11,
+      "retrieval": {
+        "answer_in_context@1": 0.4375,
+        "answer_in_context@3": 0.5,
+        "answer_in_context@5": 0.5
+      },
+      "systems": [
+        {
+          "system": "Base FLAN-T5-small, no context",
+          "n": 16,
+          "exact_match": 0.0,
+          "f1": 0.0,
+          "rouge_l": 0.0,
+          "latency_ms": 133.1
+        },
+        {
+          "system": "RAG (top-3) + base FLAN-T5-small",
+          "n": 16,
+          "exact_match": 0.25,
+          "f1": 0.6482,
+          "rouge_l": 0.6274,
+          "latency_ms": 237.3
+        }
+      ]
+    }
+  ]
+}

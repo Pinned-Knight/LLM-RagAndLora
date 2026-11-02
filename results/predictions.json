@@ -1,0 +1,1298 @@
+{
+  "Philosophy of math (Bolzano)": {
+    "Base FLAN-T5-small, no context": [
+      {
+        "question": "How do we identify a 'mere appearance' of contradiction?",
+        "gold": "clarify infinite concept",
+        "prediction": "no"
+      },
+      {
+        "question": "Which section discusses Menge and Vielheit translations?",
+        "gold": "\u00a74 Note translation",
+        "prediction": "symbiosis"
+      },
+      {
+        "question": "Relation between numbers and propositions?",
+        "gold": "Corresponding terms",
+        "prediction": "a) the ad of the ad of the ad of the ad of the ad of the ad"
+      },
+      {
+        "question": "What is infinite in rational psychology?",
+        "gold": "intellect large",
+        "prediction": "infinite"
+      },
+      {
+        "question": "Who states that a multitude exists due to an initial thinker?",
+        "gold": "14",
+        "prediction": "aristotle"
+      },
+      {
+        "question": "When are two objects considered equal?",
+        "gold": "M = N",
+        "prediction": "a minus"
+      },
+      {
+        "question": "Does the impossibility sometimes get held mistakenly as true?",
+        "gold": "Sometimes",
+        "prediction": "yes"
+      },
+      {
+        "question": "Is it permissible for philosophers to call something 'infinite' without identifying infinite properties?",
+        "gold": "Not conceded",
+        "prediction": "no"
+      },
+      {
+        "question": "What is called the impossible?",
+        "gold": "contradiction",
+        "prediction": "The impossible is to have a child."
+      },
+      {
+        "question": "What concept underlies the conjunction 'and'?",
+        "gold": "conjunction concept",
+        "prediction": "a symphony"
+      },
+      {
+        "question": "What arises from simple entities in thought?",
+        "gold": "Combinations",
+        "prediction": "a resemblance to a resemblance to a resemblance to a resemblance to"
+      },
+      {
+        "question": "For which subjects is clarity in use of 'and' required?",
+        "gold": "mathematics philosophy",
+        "prediction": "adolescence"
+      },
+      {
+        "question": "Is it correct that everything possible can be asserted as true?",
+        "gold": "No",
+        "prediction": "no"
+      },
+      {
+        "question": "What is necessary but not the same as possible or actual?",
+        "gold": "necessary only",
+        "prediction": "The same thing as possible, but not the same as possible."
+      },
+      {
+        "question": "True statements about collection exist?",
+        "gold": "Several",
+        "prediction": "no evidence"
+      },
+      {
+        "question": "How are successive terms defined within a series?",
+        "gold": "following term",
+        "prediction": "a series of successive terms"
+      },
+      {
+        "question": "What category does 'a proposition or truth in itself' fall under according to part 14?",
+        "gold": "'Category'",
+        "prediction": "adolescence"
+      },
+      {
+        "question": "Is an infinitely large intellect omniscient by definition?",
+        "gold": "not necessarily",
+        "prediction": "no"
+      },
+      {
+        "question": "Are both concepts applied to pluralities and quantities?",
+        "gold": "Yes",
+        "prediction": "no"
+      },
+      {
+        "question": "Who states the mentioned assertion on infinity?",
+        "gold": "They say",
+        "prediction": "astrophysics"
+      },
+      {
+        "question": "How is an infinite plurality defined?",
+        "gold": "More than finite ones",
+        "prediction": "infinite plurality"
+      },
+      {
+        "question": "Who calls 'the bad infinity'?",
+        "gold": "Hegel and his followers",
+        "prediction": "john scott"
+      },
+      {
+        "question": "Which objects form a whole with mutual effect according to the example given?",
+        "gold": "Sun, earth, moon",
+        "prediction": "a sandbox"
+      },
+      {
+        "question": "How are units of a kind A referred to in multitudes?",
+        "gold": "plurality",
+        "prediction": "a symphony"
+      },
+      {
+        "question": "Does the infinite concept apply to multitudes?",
+        "gold": "Multitudes application",
+        "prediction": "no"
+      },
+      {
+        "question": "Is one quantity considered the unit in mathematical terms?",
+        "gold": "One",
+        "prediction": "arithmetic"
+      },
+      {
+        "question": "Does the straight line extend into infinity on both sides?",
+        "gold": "no both sides",
+        "prediction": "no"
+      },
+      {
+        "question": "How can one object include a part of another?",
+        "gold": "M = M + \u03bd",
+        "prediction": "a slender object"
+      },
+      {
+        "question": "Does 'infinite' derive from 'finite'?",
+        "gold": "Yes",
+        "prediction": "no"
+      },
+      {
+        "question": "What is 'the bad infinity' considered as?",
+        "gold": "A quantity with limit to its growth",
+        "prediction": "a sexy sexy"
+      },
+      {
+        "question": "Can bounded objects be considered finite quantities?",
+        "gold": "Yes",
+        "prediction": "a bounded object is a refraction of a refraction of a refraction of a refraction of"
+      },
+      {
+        "question": "What are derived from the same concepts as infinite quantities?",
+        "gold": "Higher-order infinities",
+        "prediction": "a molecule"
+      },
+      {
+        "question": "Do sums preserve original structure when adding parts?",
+        "gold": "Yes, they do",
+        "prediction": "no"
+      },
+      {
+        "question": "Can you imagine all inhabitants individually?",
+        "gold": "No individual imagination",
+        "prediction": "no"
+      },
+      {
+        "question": "Which part follows a footnote on p.596?",
+        "gold": "Footnote reference",
+        "prediction": "p. 596"
+      },
+      {
+        "question": "Are there proofs against paradoxical propositions?",
+        "gold": "Proposition false",
+        "prediction": "no"
+      },
+      {
+        "question": "Adopt what alternative?",
+        "gold": "Other one",
+        "prediction": "a sex sex"
+      },
+      {
+        "question": "Which class are pure conceptual truths?",
+        "gold": "conceptual truths",
+        "prediction": "adolescence"
+      },
+      {
+        "question": "Does this universe include non-reality elements according to the statement?",
+        "gold": "yes",
+        "prediction": "no"
+      },
+      {
+        "question": "What defines the interior term in a series?",
+        "gold": "Self-evident reference",
+        "prediction": "a series of overlapping"
+      },
+      {
+        "question": "Can a proposition make claims beyond possibility?",
+        "gold": "No",
+        "prediction": "no"
+      },
+      {
+        "question": "What does the term 'collection' denote in context?",
+        "gold": "Collection of A",
+        "prediction": "a collection of items"
+      },
+      {
+        "question": "Does 'no end in time' refer only to finite entities?",
+        "gold": "No",
+        "prediction": "no"
+      },
+      {
+        "question": "What does 10 denote regarding infinite values?",
+        "gold": "Infinitely large",
+        "prediction": "a resemblance to a resemblance to a resemblance to a resemblance to"
+      },
+      {
+        "question": "Do relationships between particles arise independently of thoughts?",
+        "gold": "not necessarily",
+        "prediction": "no"
+      },
+      {
+        "question": "What kind of assertions are most paradoxical in mathematics?",
+        "gold": "infinite concepts",
+        "prediction": "a resemblance to a resemblance to a resemblance to a resemblance to"
+      },
+      {
+        "question": "Can infinity be derived from a proposition?",
+        "gold": "Infinite",
+        "prediction": "no"
+      },
+      {
+        "question": "Where can one find the discussion on translations?",
+        "gold": "\u00a74 Note translation",
+        "prediction": "wikipedia"
+      },
+      {
+        "question": "Is the tangent of a right angle considered unlimited?",
+        "gold": "Yes",
+        "prediction": "no"
+      },
+      {
+        "question": "Does part 14 mention multiple propositions?",
+        "gold": "No",
+        "prediction": "no"
+      },
+      {
+        "question": "What does rejecting collection assumption imply?",
+        "gold": "Not dependent on thinking a collection",
+        "prediction": "a collection assumption is a resemblance to a collection of information"
+      },
+      {
+        "question": "Can there be no last term in some series?",
+        "gold": "Possibly yes",
+        "prediction": "no"
+      },
+      {
+        "question": "What does part 14 refer to as 'The multitude of all propositions or truths in themselves'?",
+        "gold": "'Proposition or truth'",
+        "prediction": "adolescence"
+      },
+      {
+        "question": "Is zero considered by Cauchy and Grunert correct definition of infinitely small?",
+        "gold": "No",
+        "prediction": "no"
+      },
+      {
+        "question": "What term describes an object's size (Gr\u00f6\u00dfe)?",
+        "gold": "Quantity",
+        "prediction": "slender"
+      },
+      {
+        "question": "Propositions formed per number?",
+        "gold": "Equal",
+        "prediction": "a) a b) a d) a d) a d) a d) a d"
+      }
+    ],
+    "RAG (top-3) + base FLAN-T5-small": [
+      {
+        "question": "How do we identify a 'mere appearance' of contradiction?",
+        "gold": "clarify infinite concept",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "Which section discusses Menge and Vielheit translations?",
+        "gold": "\u00a74 Note translation",
+        "prediction": "Note on the Translations"
+      },
+      {
+        "question": "Relation between numbers and propositions?",
+        "gold": "Corresponding terms",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "What is infinite in rational psychology?",
+        "gold": "intellect large",
+        "prediction": "infinite multitude of truths"
+      },
+      {
+        "question": "Who states that a multitude exists due to an initial thinker?",
+        "gold": "14",
+        "prediction": "Steve"
+      },
+      {
+        "question": "When are two objects considered equal?",
+        "gold": "M = N",
+        "prediction": "4"
+      },
+      {
+        "question": "Does the impossibility sometimes get held mistakenly as true?",
+        "gold": "Sometimes",
+        "prediction": "It is even more indisputable that precisely those mathem- atical paradoxes which deserve our greatest attention are of this kind. Whatever some"
+      },
+      {
+        "question": "Is it permissible for philosophers to call something 'infinite' without identifying infinite properties?",
+        "gold": "Not conceded",
+        "prediction": "No"
+      },
+      {
+        "question": "What is called the impossible?",
+        "gold": "contradiction",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "What concept underlies the conjunction 'and'?",
+        "gold": "conjunction concept",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "What arises from simple entities in thought?",
+        "gold": "Combinations",
+        "prediction": "a combination of them"
+      },
+      {
+        "question": "For which subjects is clarity in use of 'and' required?",
+        "gold": "mathematics philosophy",
+        "prediction": "mathematics as well as philosophy"
+      },
+      {
+        "question": "Is it correct that everything possible can be asserted as true?",
+        "gold": "No",
+        "prediction": "No"
+      },
+      {
+        "question": "What is necessary but not the same as possible or actual?",
+        "gold": "necessary only",
+        "prediction": "1. Nothing"
+      },
+      {
+        "question": "True statements about collection exist?",
+        "gold": "Several",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "How are successive terms defined within a series?",
+        "gold": "following term",
+        "prediction": "a greater and sometimes a smaller multitude of terms"
+      },
+      {
+        "question": "What category does 'a proposition or truth in itself' fall under according to part 14?",
+        "gold": "'Category'",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "Is an infinitely large intellect omniscient by definition?",
+        "gold": "not necessarily",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "Are both concepts applied to pluralities and quantities?",
+        "gold": "Yes",
+        "prediction": "no"
+      },
+      {
+        "question": "Who states the mentioned assertion on infinity?",
+        "gold": "They say",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "How is an infinite plurality defined?",
+        "gold": "More than finite ones",
+        "prediction": "a plurality which is greater than every finite one"
+      },
+      {
+        "question": "Who calls 'the bad infinity'?",
+        "gold": "Hegel and his followers",
+        "prediction": "philosophers"
+      },
+      {
+        "question": "Which objects form a whole with mutual effect according to the example given?",
+        "gold": "Sun, earth, moon",
+        "prediction": "the sun, the earth and moon"
+      },
+      {
+        "question": "How are units of a kind A referred to in multitudes?",
+        "gold": "plurality",
+        "prediction": "pluralities [Vielheiten]"
+      },
+      {
+        "question": "Does the infinite concept apply to multitudes?",
+        "gold": "Multitudes application",
+        "prediction": "yes"
+      },
+      {
+        "question": "Is one quantity considered the unit in mathematical terms?",
+        "gold": "One",
+        "prediction": "No"
+      },
+      {
+        "question": "Does the straight line extend into infinity on both sides?",
+        "gold": "no both sides",
+        "prediction": "Yes"
+      },
+      {
+        "question": "How can one object include a part of another?",
+        "gold": "M = M + \u03bd",
+        "prediction": "aquantity [Gr\u00f6\u00dfe]"
+      },
+      {
+        "question": "Does 'infinite' derive from 'finite'?",
+        "gold": "Yes",
+        "prediction": "yes"
+      },
+      {
+        "question": "What is 'the bad infinity' considered as?",
+        "gold": "A quantity with limit to its growth",
+        "prediction": "a quantity which isvariable and has no limit to its growth"
+      },
+      {
+        "question": "Can bounded objects be considered finite quantities?",
+        "gold": "Yes",
+        "prediction": "No"
+      },
+      {
+        "question": "What are derived from the same concepts as infinite quantities?",
+        "gold": "Higher-order infinities",
+        "prediction": "infinite multitude of quantities dif- fering from one another in value"
+      },
+      {
+        "question": "Do sums preserve original structure when adding parts?",
+        "gold": "Yes, they do",
+        "prediction": "No"
+      },
+      {
+        "question": "Can you imagine all inhabitants individually?",
+        "gold": "No individual imagination",
+        "prediction": "No"
+      },
+      {
+        "question": "Which part follows a footnote on p.596?",
+        "gold": "Footnote reference",
+        "prediction": "the second"
+      },
+      {
+        "question": "Are there proofs against paradoxical propositions?",
+        "gold": "Proposition false",
+        "prediction": "yes"
+      },
+      {
+        "question": "Adopt what alternative?",
+        "gold": "Other one",
+        "prediction": "I cannot also help rejecting as incorrect many other definitions of infinity"
+      },
+      {
+        "question": "Which class are pure conceptual truths?",
+        "gold": "conceptual truths",
+        "prediction": "[Begriffswahrheiten]."
+      },
+      {
+        "question": "Does this universe include non-reality elements according to the statement?",
+        "gold": "yes",
+        "prediction": "No"
+      },
+      {
+        "question": "What defines the interior term in a series?",
+        "gold": "Self-evident reference",
+        "prediction": "self-evident"
+      },
+      {
+        "question": "Can a proposition make claims beyond possibility?",
+        "gold": "No",
+        "prediction": "No"
+      },
+      {
+        "question": "What does the term 'collection' denote in context?",
+        "gold": "Collection of A",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "Does 'no end in time' refer only to finite entities?",
+        "gold": "No",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "What does 10 denote regarding infinite values?",
+        "gold": "Infinitely large",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "Do relationships between particles arise independently of thoughts?",
+        "gold": "not necessarily",
+        "prediction": "No"
+      },
+      {
+        "question": "What kind of assertions are most paradoxical in mathematics?",
+        "gold": "infinite concepts",
+        "prediction": "propositions that either contain the concept of infinity directly , or depend on it in some way for their attempted proof"
+      },
+      {
+        "question": "Can infinity be derived from a proposition?",
+        "gold": "Infinite",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Where can one find the discussion on translations?",
+        "gold": "\u00a74 Note translation",
+        "prediction": "Oxford University Press, Incorporated. All rights reserved. The Mathematical W orks of Bernard Bolzano these objects individually (individual"
+      },
+      {
+        "question": "Is the tangent of a right angle considered unlimited?",
+        "gold": "Yes",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "Does part 14 mention multiple propositions?",
+        "gold": "No",
+        "prediction": "yes"
+      },
+      {
+        "question": "What does rejecting collection assumption imply?",
+        "gold": "Not dependent on thinking a collection",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "Can there be no last term in some series?",
+        "gold": "Possibly yes",
+        "prediction": "Absolutely no"
+      },
+      {
+        "question": "What does part 14 refer to as 'The multitude of all propositions or truths in themselves'?",
+        "gold": "'Proposition or truth'",
+        "prediction": "a proposition or truth in itself"
+      },
+      {
+        "question": "Is zero considered by Cauchy and Grunert correct definition of infinitely small?",
+        "gold": "No",
+        "prediction": "no"
+      },
+      {
+        "question": "What term describes an object's size (Gr\u00f6\u00dfe)?",
+        "gold": "Quantity",
+        "prediction": "Quantity [Gr\u00f6\u00dfe]"
+      },
+      {
+        "question": "Propositions formed per number?",
+        "gold": "Equal",
+        "prediction": "I don't know"
+      }
+    ],
+    "LoRA fine-tuned, no context": [
+      {
+        "question": "How do we identify a 'mere appearance' of contradiction?",
+        "gold": "clarify infinite concept",
+        "prediction": "No"
+      },
+      {
+        "question": "Which section discusses Menge and Vielheit translations?",
+        "gold": "\u00a74 Note translation",
+        "prediction": ""
+      },
+      {
+        "question": "Relation between numbers and propositions?",
+        "gold": "Corresponding terms",
+        "prediction": "No relation"
+      },
+      {
+        "question": "What is infinite in rational psychology?",
+        "gold": "intellect large",
+        "prediction": "infinite"
+      },
+      {
+        "question": "Who states that a multitude exists due to an initial thinker?",
+        "gold": "14",
+        "prediction": "a definite"
+      },
+      {
+        "question": "When are two objects considered equal?",
+        "gold": "M = N",
+        "prediction": "No"
+      },
+      {
+        "question": "Does the impossibility sometimes get held mistakenly as true?",
+        "gold": "Sometimes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Is it permissible for philosophers to call something 'infinite' without identifying infinite properties?",
+        "gold": "Not conceded",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What is called the impossible?",
+        "gold": "contradiction",
+        "prediction": "No"
+      },
+      {
+        "question": "What concept underlies the conjunction 'and'?",
+        "gold": "conjunction concept",
+        "prediction": "a resemblance"
+      },
+      {
+        "question": "What arises from simple entities in thought?",
+        "gold": "Combinations",
+        "prediction": "a resemblance"
+      },
+      {
+        "question": "For which subjects is clarity in use of 'and' required?",
+        "gold": "mathematics philosophy",
+        "prediction": "arithmetic"
+      },
+      {
+        "question": "Is it correct that everything possible can be asserted as true?",
+        "gold": "No",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What is necessary but not the same as possible or actual?",
+        "gold": "necessary only",
+        "prediction": "No"
+      },
+      {
+        "question": "True statements about collection exist?",
+        "gold": "Several",
+        "prediction": "True statements"
+      },
+      {
+        "question": "How are successive terms defined within a series?",
+        "gold": "following term",
+        "prediction": ""
+      },
+      {
+        "question": "What category does 'a proposition or truth in itself' fall under according to part 14?",
+        "gold": "'Category'",
+        "prediction": "Truth"
+      },
+      {
+        "question": "Is an infinitely large intellect omniscient by definition?",
+        "gold": "not necessarily",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Are both concepts applied to pluralities and quantities?",
+        "gold": "Yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Who states the mentioned assertion on infinity?",
+        "gold": "They say",
+        "prediction": "a remark"
+      },
+      {
+        "question": "How is an infinite plurality defined?",
+        "gold": "More than finite ones",
+        "prediction": "infinite plurality"
+      },
+      {
+        "question": "Who calls 'the bad infinity'?",
+        "gold": "Hegel and his followers",
+        "prediction": "adolescence"
+      },
+      {
+        "question": "Which objects form a whole with mutual effect according to the example given?",
+        "gold": "Sun, earth, moon",
+        "prediction": "a slender object"
+      },
+      {
+        "question": "How are units of a kind A referred to in multitudes?",
+        "gold": "plurality",
+        "prediction": "Units of a kind"
+      },
+      {
+        "question": "Does the infinite concept apply to multitudes?",
+        "gold": "Multitudes application",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Is one quantity considered the unit in mathematical terms?",
+        "gold": "One",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Does the straight line extend into infinity on both sides?",
+        "gold": "no both sides",
+        "prediction": "Yes"
+      },
+      {
+        "question": "How can one object include a part of another?",
+        "gold": "M = M + \u03bd",
+        "prediction": "a part"
+      },
+      {
+        "question": "Does 'infinite' derive from 'finite'?",
+        "gold": "Yes",
+        "prediction": "yes"
+      },
+      {
+        "question": "What is 'the bad infinity' considered as?",
+        "gold": "A quantity with limit to its growth",
+        "prediction": "a recurrent"
+      },
+      {
+        "question": "Can bounded objects be considered finite quantities?",
+        "gold": "Yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What are derived from the same concepts as infinite quantities?",
+        "gold": "Higher-order infinities",
+        "prediction": "infinite quantities"
+      },
+      {
+        "question": "Do sums preserve original structure when adding parts?",
+        "gold": "Yes, they do",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Can you imagine all inhabitants individually?",
+        "gold": "No individual imagination",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Which part follows a footnote on p.596?",
+        "gold": "Footnote reference",
+        "prediction": ""
+      },
+      {
+        "question": "Are there proofs against paradoxical propositions?",
+        "gold": "Proposition false",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Adopt what alternative?",
+        "gold": "Other one",
+        "prediction": "alternative"
+      },
+      {
+        "question": "Which class are pure conceptual truths?",
+        "gold": "conceptual truths",
+        "prediction": "Pure"
+      },
+      {
+        "question": "Does this universe include non-reality elements according to the statement?",
+        "gold": "yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What defines the interior term in a series?",
+        "gold": "Self-evident reference",
+        "prediction": "a series"
+      },
+      {
+        "question": "Can a proposition make claims beyond possibility?",
+        "gold": "No",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What does the term 'collection' denote in context?",
+        "gold": "Collection of A",
+        "prediction": "a resemblance"
+      },
+      {
+        "question": "Does 'no end in time' refer only to finite entities?",
+        "gold": "No",
+        "prediction": "No"
+      },
+      {
+        "question": "What does 10 denote regarding infinite values?",
+        "gold": "Infinitely large",
+        "prediction": "infinite values"
+      },
+      {
+        "question": "Do relationships between particles arise independently of thoughts?",
+        "gold": "not necessarily",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What kind of assertions are most paradoxical in mathematics?",
+        "gold": "infinite concepts",
+        "prediction": "a paradox"
+      },
+      {
+        "question": "Can infinity be derived from a proposition?",
+        "gold": "Infinite",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Where can one find the discussion on translations?",
+        "gold": "\u00a74 Note translation",
+        "prediction": "Various locations"
+      },
+      {
+        "question": "Is the tangent of a right angle considered unlimited?",
+        "gold": "Yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Does part 14 mention multiple propositions?",
+        "gold": "No",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What does rejecting collection assumption imply?",
+        "gold": "Not dependent on thinking a collection",
+        "prediction": "a resumption"
+      },
+      {
+        "question": "Can there be no last term in some series?",
+        "gold": "Possibly yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What does part 14 refer to as 'The multitude of all propositions or truths in themselves'?",
+        "gold": "'Proposition or truth'",
+        "prediction": "a multitude of all propositions"
+      },
+      {
+        "question": "Is zero considered by Cauchy and Grunert correct definition of infinitely small?",
+        "gold": "No",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What term describes an object's size (Gr\u00f6\u00dfe)?",
+        "gold": "Quantity",
+        "prediction": "smallest"
+      },
+      {
+        "question": "Propositions formed per number?",
+        "gold": "Equal",
+        "prediction": "No"
+      }
+    ],
+    "RAG (top-3) + LoRA model": [
+      {
+        "question": "How do we identify a 'mere appearance' of contradiction?",
+        "gold": "clarify infinite concept",
+        "prediction": "No idea"
+      },
+      {
+        "question": "Which section discusses Menge and Vielheit translations?",
+        "gold": "\u00a74 Note translation",
+        "prediction": "Note on the Translations"
+      },
+      {
+        "question": "Relation between numbers and propositions?",
+        "gold": "Corresponding terms",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What is infinite in rational psychology?",
+        "gold": "intellect large",
+        "prediction": "infinite multitude of truths"
+      },
+      {
+        "question": "Who states that a multitude exists due to an initial thinker?",
+        "gold": "14",
+        "prediction": "Yes"
+      },
+      {
+        "question": "When are two objects considered equal?",
+        "gold": "M = N",
+        "prediction": "No"
+      },
+      {
+        "question": "Does the impossibility sometimes get held mistakenly as true?",
+        "gold": "Sometimes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Is it permissible for philosophers to call something 'infinite' without identifying infinite properties?",
+        "gold": "Not conceded",
+        "prediction": "No"
+      },
+      {
+        "question": "What is called the impossible?",
+        "gold": "contradiction",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What concept underlies the conjunction 'and'?",
+        "gold": "conjunction concept",
+        "prediction": "3"
+      },
+      {
+        "question": "What arises from simple entities in thought?",
+        "gold": "Combinations",
+        "prediction": "Relationships"
+      },
+      {
+        "question": "For which subjects is clarity in use of 'and' required?",
+        "gold": "mathematics philosophy",
+        "prediction": "3"
+      },
+      {
+        "question": "Is it correct that everything possible can be asserted as true?",
+        "gold": "No",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What is necessary but not the same as possible or actual?",
+        "gold": "necessary only",
+        "prediction": "Yes"
+      },
+      {
+        "question": "True statements about collection exist?",
+        "gold": "Several",
+        "prediction": "Yes"
+      },
+      {
+        "question": "How are successive terms defined within a series?",
+        "gold": "following term",
+        "prediction": "None"
+      },
+      {
+        "question": "What category does 'a proposition or truth in itself' fall under according to part 14?",
+        "gold": "'Category'",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Is an infinitely large intellect omniscient by definition?",
+        "gold": "not necessarily",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Are both concepts applied to pluralities and quantities?",
+        "gold": "Yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Who states the mentioned assertion on infinity?",
+        "gold": "They say",
+        "prediction": "No claim"
+      },
+      {
+        "question": "How is an infinite plurality defined?",
+        "gold": "More than finite ones",
+        "prediction": "a property that every finite multitude represents only a part of it"
+      },
+      {
+        "question": "Who calls 'the bad infinity'?",
+        "gold": "Hegel and his followers",
+        "prediction": "Some philosophers"
+      },
+      {
+        "question": "Which objects form a whole with mutual effect according to the example given?",
+        "gold": "Sun, earth, moon",
+        "prediction": "a certain collection of things"
+      },
+      {
+        "question": "How are units of a kind A referred to in multitudes?",
+        "gold": "plurality",
+        "prediction": "plurality"
+      },
+      {
+        "question": "Does the infinite concept apply to multitudes?",
+        "gold": "Multitudes application",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Is one quantity considered the unit in mathematical terms?",
+        "gold": "One",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Does the straight line extend into infinity on both sides?",
+        "gold": "no both sides",
+        "prediction": "Yes"
+      },
+      {
+        "question": "How can one object include a part of another?",
+        "gold": "M = M + \u03bd",
+        "prediction": "a Quantity [Gr\u00f6\u00dfe]"
+      },
+      {
+        "question": "Does 'infinite' derive from 'finite'?",
+        "gold": "Yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What is 'the bad infinity' considered as?",
+        "gold": "A quantity with limit to its growth",
+        "prediction": "unanswerable"
+      },
+      {
+        "question": "Can bounded objects be considered finite quantities?",
+        "gold": "Yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What are derived from the same concepts as infinite quantities?",
+        "gold": "Higher-order infinities",
+        "prediction": "infinite multitude"
+      },
+      {
+        "question": "Do sums preserve original structure when adding parts?",
+        "gold": "Yes, they do",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Can you imagine all inhabitants individually?",
+        "gold": "No individual imagination",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Which part follows a footnote on p.596?",
+        "gold": "Footnote reference",
+        "prediction": "The second"
+      },
+      {
+        "question": "Are there proofs against paradoxical propositions?",
+        "gold": "Proposition false",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Adopt what alternative?",
+        "gold": "Other one",
+        "prediction": "No basis for abandoning our concept of the infinite"
+      },
+      {
+        "question": "Which class are pure conceptual truths?",
+        "gold": "conceptual truths",
+        "prediction": "Pure conceptual truths"
+      },
+      {
+        "question": "Does this universe include non-reality elements according to the statement?",
+        "gold": "yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What defines the interior term in a series?",
+        "gold": "Self-evident reference",
+        "prediction": "self-evident"
+      },
+      {
+        "question": "Can a proposition make claims beyond possibility?",
+        "gold": "No",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What does the term 'collection' denote in context?",
+        "gold": "Collection of A",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "Does 'no end in time' refer only to finite entities?",
+        "gold": "No",
+        "prediction": "No more satisfactory"
+      },
+      {
+        "question": "What does 10 denote regarding infinite values?",
+        "gold": "Infinitely large",
+        "prediction": "infinite multitude"
+      },
+      {
+        "question": "Do relationships between particles arise independently of thoughts?",
+        "gold": "not necessarily",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What kind of assertions are most paradoxical in mathematics?",
+        "gold": "infinite concepts",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Can infinity be derived from a proposition?",
+        "gold": "Infinite",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Where can one find the discussion on translations?",
+        "gold": "\u00a74 Note translation",
+        "prediction": "Oxford University Press, Incorporated. All rights reserved"
+      },
+      {
+        "question": "Is the tangent of a right angle considered unlimited?",
+        "gold": "Yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "Does part 14 mention multiple propositions?",
+        "gold": "No",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What does rejecting collection assumption imply?",
+        "gold": "Not dependent on thinking a collection",
+        "prediction": "No being"
+      },
+      {
+        "question": "Can there be no last term in some series?",
+        "gold": "Possibly yes",
+        "prediction": "Yes"
+      },
+      {
+        "question": "What does part 14 refer to as 'The multitude of all propositions or truths in themselves'?",
+        "gold": "'Proposition or truth'",
+        "prediction": "a category"
+      },
+      {
+        "question": "Is zero considered by Cauchy and Grunert correct definition of infinitely small?",
+        "gold": "No",
+        "prediction": "No"
+      },
+      {
+        "question": "What term describes an object's size (Gr\u00f6\u00dfe)?",
+        "gold": "Quantity",
+        "prediction": "Quantity"
+      },
+      {
+        "question": "Propositions formed per number?",
+        "gold": "Equal",
+        "prediction": "Yes"
+      }
+    ]
+  },
+  "Sports (Federer)": {
+    "Base FLAN-T5-small, no context": [
+      {
+        "question": "When was Roger Federer born?",
+        "gold": "August 8, 1981",
+        "prediction": "18 December 1897"
+      },
+      {
+        "question": "How many consecutive weeks did Federer hold ATP No. 1 rank?",
+        "gold": "237 weeks",
+        "prediction": "3"
+      },
+      {
+        "question": "What is Federer's worldwide singles ranking record?",
+        "gold": "5 times year-end No. 1",
+        "prediction": "world number one"
+      },
+      {
+        "question": "How many ATP Tour singles titles has Federer won?",
+        "gold": "103 titles",
+        "prediction": "2"
+      },
+      {
+        "question": "Federer's Wimbledon title tally?",
+        "gold": "8 titles",
+        "prediction": "Federer's title"
+      },
+      {
+        "question": "What are Federer's US Open titles count?",
+        "gold": "5 joint-record titles",
+        "prediction": "ten"
+      },
+      {
+        "question": "How many year-end championships has Federer won?",
+        "gold": "6 times",
+        "prediction": "2"
+      },
+      {
+        "question": "When was the Open Era started?",
+        "gold": "1968",
+        "prediction": "1897"
+      },
+      {
+        "question": "How many times did Federer win the Laureus World Sportsman of the Year award?",
+        "gold": "Five times",
+        "prediction": "2"
+      },
+      {
+        "question": "What foundation was established by Roger Federer?",
+        "gold": "Roger Federer Foundation",
+        "prediction": "st. john s. john s. john s. john s. john s. john"
+      },
+      {
+        "question": "In which year did Federer top the endorsement income list at $100 million?",
+        "gold": "2020",
+        "prediction": "2007"
+      },
+      {
+        "question": "Which sportsmanship award has Federer won 13 times?",
+        "gold": "Edberg Award",
+        "prediction": "samoah"
+      },
+      {
+        "question": "What type of player is Federer recognized as on the court?",
+        "gold": "Versatile all-court",
+        "prediction": "defender"
+      },
+      {
+        "question": "How many times has Federer been awarded Laureus World Sportsman of the Year?",
+        "gold": "Five times",
+        "prediction": "four"
+      },
+      {
+        "question": "Which competition did Federer help create?",
+        "gold": "Laver Cup",
+        "prediction": "snooker"
+      },
+      {
+        "question": "What was Federer's endorsement income in 2020?",
+        "gold": "$100 million",
+        "prediction": "$59,390"
+      }
+    ],
+    "RAG (top-3) + base FLAN-T5-small": [
+      {
+        "question": "When was Roger Federer born?",
+        "gold": "August 8, 1981",
+        "prediction": "8 August 1981"
+      },
+      {
+        "question": "How many consecutive weeks did Federer hold ATP No. 1 rank?",
+        "gold": "237 weeks",
+        "prediction": "237"
+      },
+      {
+        "question": "What is Federer's worldwide singles ranking record?",
+        "gold": "5 times year-end No. 1",
+        "prediction": "No. 1"
+      },
+      {
+        "question": "How many ATP Tour singles titles has Federer won?",
+        "gold": "103 titles",
+        "prediction": "103"
+      },
+      {
+        "question": "Federer's Wimbledon title tally?",
+        "gold": "8 titles",
+        "prediction": "I don't know"
+      },
+      {
+        "question": "What are Federer's US Open titles count?",
+        "gold": "5 joint-record titles",
+        "prediction": "five"
+      },
+      {
+        "question": "How many year-end championships has Federer won?",
+        "gold": "6 times",
+        "prediction": "3"
+      },
+      {
+        "question": "When was the Open Era started?",
+        "gold": "1968",
+        "prediction": "1968"
+      },
+      {
+        "question": "How many times did Federer win the Laureus World Sportsman of the Year award?",
+        "gold": "Five times",
+        "prediction": "five"
+      },
+      {
+        "question": "What foundation was established by Roger Federer?",
+        "gold": "Roger Federer Foundation",
+        "prediction": "Roger Federer Foundation"
+      },
+      {
+        "question": "In which year did Federer top the endorsement income list at $100 million?",
+        "gold": "2020",
+        "prediction": "2020"
+      },
+      {
+        "question": "Which sportsmanship award has Federer won 13 times?",
+        "gold": "Edberg Award",
+        "prediction": "Stefan Edberg Sportsmanship Award"
+      },
+      {
+        "question": "What type of player is Federer recognized as on the court?",
+        "gold": "Versatile all-court",
+        "prediction": "A versatile all-court player"
+      },
+      {
+        "question": "How many times has Federer been awarded Laureus World Sportsman of the Year?",
+        "gold": "Five times",
+        "prediction": "five"
+      },
+      {
+        "question": "Which competition did Federer help create?",
+        "gold": "Laver Cup",
+        "prediction": "Laver Cup team competition"
+      },
+      {
+        "question": "What was Federer's endorsement income in 2020?",
+        "gold": "$100 million",
+        "prediction": "$100 million"
+      }
+    ]
+  }
+}
