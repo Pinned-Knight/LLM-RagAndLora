@@ -12,6 +12,7 @@ const chatInput = document.getElementById('chatInput');
 const chatMessages = document.getElementById('chatMessages');
 const sendBtn = document.getElementById('sendBtn');
 const chatStatus = document.getElementById('chatStatus');
+const useRag = document.getElementById('useRag');
 const trainBtn = document.getElementById('trainBtn');
 const trainBtnText = document.getElementById('trainBtnText');
 const trainSpinner = document.getElementById('trainSpinner');
@@ -163,7 +164,9 @@ async function sendMessage() {
     sendBtn.disabled = true;
 
     try {
-        const response = await fetch('/chat', {
+        // RAG mode retrieves chunks from the uploaded PDF(s) first; otherwise the model answers on its own
+        const endpoint = useRag && useRag.checked ? '/rag_chat' : '/chat';
+        const response = await fetch(endpoint, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -174,7 +177,7 @@ async function sendMessage() {
         const data = await response.json();
 
         if (response.ok) {
-            addMessage('bot', data.response);
+            addMessage('bot', data.response, data.sources);
         } else {
             addMessage('bot', `Error: ${data.error}`);
         }
@@ -188,7 +191,7 @@ async function sendMessage() {
     }
 }
 
-function addMessage(sender, content) {
+function addMessage(sender, content, sources) {
     const messageDiv = document.createElement('div');
     messageDiv.className = `message ${sender}`;
 
@@ -199,6 +202,21 @@ function addMessage(sender, content) {
         contentDiv.innerHTML = `<strong>FLAN-T5:</strong> ${content}`;
     } else {
         contentDiv.innerHTML = content;
+    }
+
+    // RAG answers list the retrieved chunks so the user can check where the answer came from
+    if (sources && sources.length) {
+        const details = document.createElement('details');
+        details.className = 'sources';
+        const summary = document.createElement('summary');
+        summary.textContent = `Sources (${sources.length})`;
+        details.appendChild(summary);
+        sources.forEach((s, i) => {
+            const p = document.createElement('p');
+            p.textContent = `[${i + 1}] ${s.source} · similarity ${s.score.toFixed(2)} — ${s.text}`;
+            details.appendChild(p);
+        });
+        contentDiv.appendChild(details);
     }
 
     messageDiv.appendChild(contentDiv);

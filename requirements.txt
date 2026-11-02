@@ -11,3 +11,7 @@ pydantic
 litellm
 docling
 werkzeug
+# RAG (rag.py, benchmark.py)
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+pypdf>=4.0

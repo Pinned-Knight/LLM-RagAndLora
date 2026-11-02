@@ -13,6 +13,11 @@ from datasets import Dataset
 from peft import LoraConfig, get_peft_model, TaskType, PeftModel
 import gen_data
 
+try:
+    import rag
+except ImportError:  # optional extras (faiss, sentence-transformers, pypdf) missing: RAG endpoints are disabled
+    rag = None
+
 app = Flask(__name__)
 CORS(app)
 
@@ -25,6 +30,7 @@ DATA_PATH = None
 DATA_SIZE = 0
 log_queue = queue.Queue()
 is_training = False
+rag_index = None  # vector index over every uploaded PDF (built lazily on first upload)
 
 def load_base_model():
     """Load the base FLAN-T5 model and tokenizer"""
@@ -55,6 +61,14 @@ def upload_pdf():
         path = os.path.join("uploads", filename)
         pdf.save(path)
 
+        # Index the PDF for RAG right away, so retrieval works even if dataset generation is slow or fails.
+        # Several PDFs share one index, so questions can span documents from different domains.
+        global rag_index
+        if rag is not None:
+            if rag_index is None:
+                rag_index = rag.RagIndex()
+            rag_index.add_pdf(path)
+
         # Generate dataset using gen_data.py
         global DATA_PATH, DATA_SIZE
         dataset = gen_data.get_dataset(path)
@@ -69,7 +83,8 @@ def upload_pdf():
                 data = json.load(f)
                 DATA_SIZE = len(data)
 
-        return jsonify({'pairs': DATA_SIZE, 'message': 'Dataset generated successfully!'})
+        return jsonify({'pairs': DATA_SIZE, 'rag_chunks': len(rag_index) if rag_index else 0,
+                        'message': 'Dataset generated successfully!'})
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -119,6 +134,31 @@ def chat():
 
         return jsonify({'response': response})
 
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/rag_chat', methods=['POST'])
+def rag_chat():
+    """Answer from the uploaded PDF(s): retrieve the top-k chunks, then generate with the current model."""
+    try:
+        if rag is None:
+            return jsonify({'error': 'RAG extras are not installed (pip install sentence-transformers faiss-cpu pypdf)'}), 501
+        if rag_index is None or len(rag_index) == 0:
+            return jsonify({'error': 'Upload a PDF first: the RAG index is empty'}), 400
+
+        data = request.get_json() or {}
+        question = (data.get('prompt') or '').strip()
+        if not question:
+            return jsonify({'error': 'No prompt provided'}), 400
+        k = max(1, min(int(data.get('k', 3)), 8))
+
+        # uses whichever model is loaded right now: the base model, or the fine-tuned one after training
+        result = rag.answer_question(question, rag_index, rag.Generator(model=current_model, tokenizer=tokenizer), k=k)
+        return jsonify({
+            'response': result.answer,
+            'sources': [{'chunk_id': h.chunk_id, 'score': round(h.score, 3), 'source': h.source, 'text': h.text}
+                        for h in result.hits],
+        })
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
